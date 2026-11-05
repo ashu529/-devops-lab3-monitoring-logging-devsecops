@@ -1,37 +1,51 @@
-# -devops-lab3-monitoring-logging-devsecops
-DevOps Lab 3 – Infrastructure Automation, Monitoring, Logging and DevSecOps
 # DevOps Lab 3: Monitoring, Logging & DevSecOps
 
 ## Overview
 
-This repository contains the practical implementations and documentation for **Lab 3 – Monitoring, Logging & DevSecOps**.
+This repository contains the practical implementations and documentation for **DevOps Lab 3 – Monitoring, Logging & DevSecOps**.
 
-The objective of this lab is to design an automated, observable, and secure infrastructure workflow using DevOps tools and practices.
+The lab focuses on implementing DevOps practices for infrastructure automation, system monitoring, centralized logging, security integration, and automated testing using industry-standard tools and technologies.
 
 ## Objectives
 
 - Automate infrastructure provisioning using Terraform.
-- Automate server configuration using Ansible.
+- Automate server configuration and management using Ansible.
 - Implement infrastructure monitoring using Prometheus.
-- Create monitoring dashboards using Grafana.
+- Create monitoring dashboards and visualizations using Grafana.
 - Implement centralized logging using the ELK Stack.
-- Integrate security scanning into the DevOps workflow.
-- Implement feature flags.
-- Perform load testing.
+- Understand and implement security scanning in DevOps pipelines.
+- Implement feature flags for controlled feature releases.
+- Perform application load testing.
 - Automate browser testing using Selenium.
 
 ## Tools & Technologies
 
-| Category | Tools |
+| Category | Tools & Technologies |
 |---|---|
 | Infrastructure as Code | Terraform |
 | Configuration Management | Ansible |
 | Monitoring | Prometheus |
-| Visualization | Grafana |
-| Centralized Logging | Elasticsearch, Logstash, Kibana |
+| Visualization & Dashboards | Grafana |
+| Centralized Logging | Elasticsearch, Logstash, Kibana (ELK Stack) |
+| Security & DevSecOps | Security Scanning Tools |
+| Feature Management | Feature Flags |
+| Load Testing | Load Testing Tools |
 | Browser Automation | Selenium |
-| Security & Quality | Pipeline Security Scanning |
 | Version Control | Git & GitHub |
+
+## Lab Coverage
+
+The following practical areas are covered as part of this laboratory:
+
+1. Infrastructure Provisioning using Terraform
+2. Configuration Management using Ansible
+3. Monitoring using Prometheus
+4. Visualization and Dashboards using Grafana
+5. Centralized Logging using ELK Stack
+6. Security Scanning and DevSecOps Practices
+7. Feature Flag Implementation
+8. Application Load Testing
+9. Automated Browser Testing using Selenium
 
 ## Repository Structure
 
@@ -49,43 +63,33 @@ devops-lab3-monitoring-logging-devsecops/
 ├── 09-Selenium/
 │
 ├── screenshots/
-│
 ├── observations/
 │
 └── README.md
 ```
 
-## Lab Experiments
+## Repository Documentation
 
-| No. | Experiment | Status |
-|---|---|---|
-| 1 | Infrastructure Provisioning using Terraform | Pending |
-| 2 | Configuration Management using Ansible | Pending |
-| 3 | Monitoring using Prometheus | Pending |
-| 4 | Visualization using Grafana | Pending |
-| 5 | Centralized Logging using ELK Stack | Pending |
-| 6 | Security Scanning | Pending |
-| 7 | Feature Flags | Pending |
-| 8 | Load Testing | Pending |
-| 9 | Automated Browser Testing using Selenium | Pending |
+Each practical exercise includes relevant implementation resources and documentation, such as:
 
-## Documentation
-
-Each experiment will contain:
-
-- Configuration files and scripts
-- Execution steps and commands
-- Screenshots of implementation
-- Observations and results
+- **Source Code:** Configuration files, scripts, and automation code.
+- **Execution Steps:** Commands and procedures used to perform the experiments.
+- **Screenshots:** Visual evidence of implementation and execution.
+- **Observations & Results:** Outputs, findings, and learning outcomes.
 
 ## Learning Outcomes
 
-- Understanding Infrastructure as Code.
-- Automating infrastructure configuration.
-- Monitoring system performance and health.
-- Managing centralized application logs.
-- Integrating security into DevOps workflows.
-- Performing automated application testing.
+Through these practical exercises, the lab aims to provide hands-on experience in:
+
+- Understanding Infrastructure as Code (IaC).
+- Automating infrastructure provisioning and configuration.
+- Monitoring system health and performance.
+- Visualizing metrics through monitoring dashboards.
+- Managing and analyzing centralized application logs.
+- Integrating security practices into DevOps workflows.
+- Understanding feature management and controlled releases.
+- Evaluating application performance through load testing.
+- Performing automated browser-based testing.
 
 ## Author
 
